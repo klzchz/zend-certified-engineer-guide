@@ -12,3 +12,73 @@
 ##########################################################################################################################
 
 */
+
+
+/* */
+
+//Basicamente  a equação seria  $a << $b  =  ($a * 2 ^ $b) 
+
+$a = 7;
+$b = 9;
+$result = $a << $b;
+
+echo ("bits Shifting Left: \n {$result}"); //3584
+echo "<br/><br/>";
+
+/*Shift right*/
+
+// A expressão seria  $a >> $b  =  ($a / 2 ^ $b) 
+
+$a = 4;
+$b = 6;
+$result = $a >> $b;
+
+echo ("Bits Shifting Right:\n {$result}");  // 0.0625
+echo "<br/><br/>";
+
+
+// A expressão seria  Not	 Negação (~x) = ~x = -x -1 
+
+$x = ~7;
+
+
+echo ("Bits Not:\n {$x}");  //  -8
+echo "<br/><br/>";
+
+
+// A expressão seria   And &  $a & $b (Operação de tabela binaria)
+
+$a = 5;
+$b = 2;
+
+$result = $a & $b;
+
+echo ("Bits And:\n {$result}"); 
+echo "<br/><br/>";
+
+// A expressão seria  Or   $a |  $b (Operação de tabela binaria)
+
+$a = 5;
+$b = 2;
+
+$result = $a |  $b;
+
+echo ("Bits Or:\n {$result}"); 
+echo "<br/><br/>";
+
+
+// A expressão seria  Xor   $a ^  $b (Operação de tabela binaria)
+
+$a = 3;
+$b = 2;
+
+$result = $a ^ $b;
+
+echo ("Bits Xor:\n {$result}"); 
+echo "<br/><br/>";
+
+
+
+
+
+
